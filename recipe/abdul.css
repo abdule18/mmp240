@@ -1,3 +1,48 @@
+
+
+*{                /*removes browser's defaults*/
+  margin: 0;
+  padding: 0;
+}
 body{
-  font-family:cursive;
+  font-family:'work sans'cursive;
+  width: 1000px;
+  border: solid lightpink 10px;
+  margin-left: 1em;
+  background-color: beige;
+}
+
+h1{
+  background-color: skyblue;
+  padding: 0.5em;
+  text-align: center;
+  color: blue;
+}
+
+div{
+  padding: 1.5em;
+}
+p{
+  font-style: initial;
+}
+
+img{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2, h3{
+  font-family: 'fredoka one',inherit;
+  color: red;
+}
+ul, ol{
+  padding-left: 1em;
+}
+
+h2, h3, p, ul, ol {
+  margin-bottom: 1rem;
+}
+
+p{
+  font-size: large;
 }
