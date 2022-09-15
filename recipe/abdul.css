@@ -10,6 +10,7 @@ body{
   border: solid lightpink 10px;
   margin-left: 1em;
   background-color: beige;
+  margin: 0 auto;
 }
 
 h1{
@@ -22,9 +23,7 @@ h1{
 div{
   padding: 1.5em;
 }
-p{
-  font-style: initial;
-}
+
 
 img{
   margin-left: auto;
@@ -41,8 +40,4 @@ ul, ol{
 
 h2, h3, p, ul, ol {
   margin-bottom: 1rem;
-}
-
-p{
-  font-size: large;
 }
