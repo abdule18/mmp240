@@ -1,20 +1,60 @@
+*{                /* reset all browser's defaults */
+  margin: 0;
+  padding: 0;
+  border: none;
+}
 header{
-  padding: 1em 2em 2em; /* top, right, bottom, left */
+
+  padding: 1em 2em 0.5em; /* top, right, bottom, left */
   /* background-color: Black;
   background-image: url("image/one-piece.png");
   background-repeat: no-repeat;
   background-position: right top; */
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 37%, rgba(0,0,0,0) 47%), url("image/one-piece.png") no-repeat right top;
 }
-header p{
-  width: 250px;
-  color: white;
+nav{
+  background-color: darkred;
+  padding: 10px;
+  margin-bottom: 2em;
 }
-*{                /* reset all browser's defaults */
-  margin: 0;
-  padding: 0;
+nav li{
+  display: inline-block;
+  padding-top: 0.5em;
+  padding-bottom:0.5em;
+  width: 12em;
+  text-align: center;
+  padding-right: 1em;
+  color: white;
+  border-right: solid 1px white;
+}
+nav li:last-child{
   border: none;
 }
+nav a{
+  color: white;
+  text-decoration: none;
+}
+nav a:hover{
+  color: pink;
+  text-decoration: underline;
+}
+header p{
+  width: 375px;
+  color: white;
+}
+header a{
+  color: Darkred;
+  text-decoration: none;
+  border: solid 1px darkred;
+  border-radius: 5px;
+  padding: 5px; 10px;
+  margin-top: 1em;
+  display:inline-block;
+}
+header a:hover{
+  background-color: gray;
+}
+
 
 #wrapper {
   max-width: 1200px;
@@ -23,9 +63,17 @@ header p{
 }
 
 .col {
-  width: 600px;
+  width: 48%;
+  float:left;
+  margin-right: 4%;
+}
+.col:last-child{
+  margin-right: 0;
 }
 
 h1 img{
   width: 250px;
+}
+h1, h2, p{
+  margin-bottom: 1em;
 }
