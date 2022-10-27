@@ -77,3 +77,29 @@ h1 img{
 h1, h2, p{
   margin-bottom: 1em;
 }
+
+/* Episode page */
+
+.episode{
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  justify-content: space-between;
+}
+.card{
+  width:23%;
+  border: solid 1px gray;
+  border-radius: 5px;
+  margin-bottom: 1.5em;
+}
+.card img{
+  width: 100%;
+}
+.card p{
+  margin: 1em 0.5em;
+  font-family:fantasy;
+}.card h4{
+  margin: 0.5em 0.5em 0.5em 0.5em;
+  font-family: inherit;
+  text-decoration: underline;
+}
