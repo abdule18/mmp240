@@ -97,9 +97,18 @@ h1, h2, p{
 }
 .card p{
   margin: 1em 0.5em;
-  font-family:cursive;
+  font-family:inherit;
 }.card h4{
   margin: 0.5em 0.5em 0.5em 0.5em;
   font-family: inherit;
   text-decoration: underline;
+}
+
+@media( max-width:575px){
+  .episode{
+    flex-direction: column;
+  }
+  .card{
+    width: 100%;
+  }
 }
