@@ -1,0 +1,80 @@
+@import url("";)
+
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+body{
+  font-family: 'Work Sans', sans-serif;
+  margin: 1em;
+}
+
+#wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+p, h1, h2, h3, nav, article{
+  margin-bottom: 1em;
+}
+
+/* header navigation */
+header{
+  display: flex;
+  justify-content: space-between;
+}
+#dropmenu{
+  display: none;
+  position: absolute;
+  right: 0;
+  border: solid 1px lightgray;
+  padding: 0.5em;
+  background-color: #fff;
+}
+
+#dropmenu ul{
+  list-style-type: none;
+}
+
+#dropmenu li{
+  padding: 0.5em 1em;
+}
+
+#dropmenu input{
+  border: solid 1px gray;
+  padding: 5px;
+}
+
+.topnav{
+  /* text-align: right; */
+}
+
+/* search program navigation */
+
+.search-program strong a{
+  color: black;
+}
+
+nav ul{
+  padding: 0;
+  list-style-type:none;
+}
+nav a{
+  display: block;
+  padding: 1em;
+  background-color: #ccc;
+  border-bottom: solid 1px #666;
+  color: black;
+  text-decoration: none;
+}
+nav li li a{
+  background-color: aqua;
+}
+nav li ul{
+  display:none;
+}
+nav li:hover ul{
+  display: block;
+}
